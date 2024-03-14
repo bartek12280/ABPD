@@ -11,7 +11,6 @@ public class Program
         string name = "Bartek";
         bool isStudent = true;
         
-        
         // if statements
         if (age > 18)
         {
@@ -20,6 +19,13 @@ public class Program
         else
         {
             Console.WriteLine("under 18!!!");
+        }
+        
+        // for loop
+        int count = 15;
+        for (int i = 1; i <= count; i++)
+        {
+            Console.WriteLine(i);
         }
     }
 }
