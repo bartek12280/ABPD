@@ -1,4 +1,5 @@
 ﻿using System;
+using ConsoleApp1;
 
 public class Program
 {
@@ -10,7 +11,7 @@ public class Program
         double height = 193.5;
         string name = "Bartek";
         bool isStudent = true;*/
-        
+
         // if statements
         if (age > 18)
         {
@@ -20,14 +21,14 @@ public class Program
         {
             Console.WriteLine("under 18!!!");
         }
-        
+
         // for loop
         int count = 15;
         for (int i = 1; i <= count; i++)
         {
             Console.WriteLine(i);
         }
-        
+
         Console.WriteLine("");
         // while loop
         while (count > 0)
@@ -35,7 +36,7 @@ public class Program
             Console.WriteLine(count);
             count--;
         }
-        
+
         Console.WriteLine("");
         // array
         int[] numbers = { 1, 2, 3, 4, 5 };
@@ -46,7 +47,13 @@ public class Program
         }
 
         Console.WriteLine("");
-        Console.WriteLine(AddTwoVariables(5,4));
+        Console.WriteLine(AddTwoVariables(5, 4));
+
+        Person person1 = new Person();
+        person1.setAge(20);
+        person1.setName("Bartek");
+
+        person1.printInfo();
     }
 
     static int AddTwoVariables(int a, int b)
