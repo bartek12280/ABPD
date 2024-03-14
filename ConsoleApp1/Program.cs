@@ -58,6 +58,18 @@ public class Program
         Dog dog = new Dog();
         dog.bark();
         dog.eat();
+        
+        // try catch finnaly
+
+        try
+        {
+            int[] nums = { 1, 2, 3, 4 };
+            Console.WriteLine(nums[5]);
+        }
+        catch (IndexOutOfRangeException ex)
+        {
+            Console.WriteLine("Error: " + ex.Message);
+        }
     }
 
     static int AddTwoVariables(int a, int b)
