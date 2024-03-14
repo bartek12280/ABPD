@@ -27,5 +27,13 @@ public class Program
         {
             Console.WriteLine(i);
         }
+        
+        Console.WriteLine("");
+        // while loop
+        while (count > 0)
+        {
+            Console.WriteLine(count);
+            count--;
+        }
     }
 }
