@@ -2,5 +2,5 @@
 
 public class Animal
 {
-    
+    private int test;
 }
