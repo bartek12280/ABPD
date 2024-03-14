@@ -6,10 +6,10 @@ public class Program
     {
         // variables
         int age = 25;
-        float weight = 65.5f;
+        /*float weight = 65.5f;
         double height = 193.5;
         string name = "Bartek";
-        bool isStudent = true;
+        bool isStudent = true;*/
         
         // if statements
         if (age > 18)
@@ -44,5 +44,13 @@ public class Program
         {
             Console.WriteLine(numbers[i]);
         }
+
+        Console.WriteLine("");
+        Console.WriteLine(AddTwoVariables(5,4));
+    }
+
+    static int AddTwoVariables(int a, int b)
+    {
+        return a + b;
     }
 }
