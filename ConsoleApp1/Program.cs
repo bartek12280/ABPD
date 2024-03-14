@@ -4,6 +4,10 @@ public class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, world!");
+        int age = 25;
+        float weight = 65.5f;
+        double height = 193.5;
+        string name = "Bartek";
+        bool isStudent = true;
     }
 }
