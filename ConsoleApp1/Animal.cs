@@ -2,5 +2,8 @@
 
 public class Animal
 {
-    private int test;
+    public void eat()
+    {
+        Console.WriteLine("Animal is eating");
+    }
 }

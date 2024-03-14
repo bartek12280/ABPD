@@ -54,6 +54,10 @@ public class Program
         person1.setName("Bartek");
 
         person1.printInfo();
+
+        Dog dog = new Dog();
+        dog.bark();
+        dog.eat();
     }
 
     static int AddTwoVariables(int a, int b)
